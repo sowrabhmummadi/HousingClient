@@ -1,0 +1,73 @@
+.glyphicon {
+  color: #ff6a5c;
+  font-size: 18px;
+}
+
+.attr {
+  font-size: 18px;
+  padding: 0;
+  color: #333a56;
+}
+
+.image {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  height: 350px;
+  width: 500px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+  align-items: center;
+  border-radius: 10px;
+}
+
+.result-background {
+  position: relative;
+  background: #e8e8e8;
+  height: 400px;
+  width: 800px;
+  display: flex;
+  border-radius: 10px;
+}
+
+.details-container {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 350px;
+  width: 250px;
+}
+
+h4 {
+  color: #a9a9a9;
+}
+
+hr {
+  margin: 0 !important;
+  border: 0;
+  border-top: 1px solid #dc35457a !important;
+}
+
+#date .glyphicon {
+  font-size: 20px;
+}
+
+#date {
+  font-size: 18px;
+  color: #333a56;
+  padding: 7px;
+}
+
+.headings {
+  position: absolute;
+  top: 40%;
+  font-size: 30px;
+  color: aliceblue;
+  margin-left: 5%;
+  background: rgb(6,0,3);
+  background: radial-gradient(circle, rgba(6,0,3,0.8) 0%, rgba(0,4,9,0.2) 100%);
+  padding: 10px;
+  border-radius: 10px ;
+}

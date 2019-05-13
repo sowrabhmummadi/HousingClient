@@ -1,0 +1,38 @@
+  <div class="result-background">
+    <div class="image">
+      <img src="{{result.get_first_image}}" height=100% width=100%>
+      <div class="headings">
+        <h2>{{result.street}}<br/> {{result.city}}</h2>
+      </div>
+    </div>
+    <div class="details-container">
+
+      <div>
+        <div id="details">
+          <h4>Details</h4>
+          <div class="attr"><span class="glyphicon glyphicon-home"></span> Rooms : {{result.rooms}}</div>
+          <div class="attr"><span class="glyphicon glyphicon-usd"></span> Rent : {{result.rent}}</div>
+          <div class="attr"><span class="glyphicon glyphicon-stats"></span> Area : {{result.area}} sqm</div>
+          <hr>
+        </div>
+
+        <div class="transit">
+          <h4>Transit to office</h4>
+          <div class="attr"><span class="glyphicon glyphicon-road"></span> Distance : {{result.distanceToOffice}}</div>
+          <div class="attr"><span class="glyphicon glyphicon-time"></span> Dutation : {{result.durationToOffice}}</div>
+
+          <hr>
+          <div class="transit-details">
+            <h4>Transit-details</h4>
+            <div class="attr"><span class="glyphicon glyphicon-road"></span> Walk : {{result.walk}} km</div>
+            <div class="attr"><span class="glyphicon glyphicon-road"></span> Transit : {{result.transit}} km</div>
+            <div class="attr"><span class="glyphicon glyphicon-road"></span> NoOfTransits :{{result.noOfTransits}}</div>
+            <hr>
+          </div>
+          <div id="date"><span class="glyphicon glyphicon-calendar"></span> {{result.date_publish | date: 'short'}}</div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
