@@ -66,8 +66,22 @@ hr {
   font-size: 30px;
   color: aliceblue;
   margin-left: 5%;
-  background: rgb(6,0,3);
-  background: radial-gradient(circle, rgba(6,0,3,0.8) 0%, rgba(0,4,9,0.2) 100%);
+  background: rgb(6, 0, 3);
+  background: radial-gradient(circle, rgba(6, 0, 3, 0.8) 0%, rgba(0, 4, 9, 0.2) 100%);
   padding: 10px;
-  border-radius: 10px ;
+  border-radius: 10px;
+}
+
+.location{
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  background: rgb(6, 0, 3);
+  background: radial-gradient(circle, rgba(6, 0, 3, 0.8) 0%, rgba(0, 4, 9, 0.2) 100%);
+  padding-top: 6px;
+  border-radius: 10px;
+}
+
+.location .glyphicon{
+  font-size: 30px;
 }
